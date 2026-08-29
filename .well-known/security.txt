@@ -1,0 +1,5 @@
+Contact: mailto:alex.altherai@gmail.com
+Preferred-Languages: en, ro
+Canonical: https://altherai.github.io/.well-known/security.txt
+Policy: https://altherai.github.io/contact.html
+Expires: 2027-08-29T00:00:00Z
