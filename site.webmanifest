@@ -1,0 +1,17 @@
+{
+  "name": "ALTHERAI",
+  "short_name": "ALTHERAI",
+  "description": "Gaming creator focused on Warframe, free-to-play PC games and Linux/Zorin gaming tests.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#02030a",
+  "theme_color": "#0f071c",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
