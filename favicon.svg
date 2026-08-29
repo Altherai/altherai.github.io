@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="ALTHERAI icon">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="65%">
+      <stop offset="0" stop-color="#2b0f5f"/>
+      <stop offset="0.55" stop-color="#07162f"/>
+      <stop offset="1" stop-color="#02030a"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="20%" y1="10%" x2="80%" y2="95%">
+      <stop offset="0" stop-color="#fff2a8"/>
+      <stop offset="0.35" stop-color="#d7a93d"/>
+      <stop offset="0.75" stop-color="#7d4f10"/>
+      <stop offset="1" stop-color="#ffe27a"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <circle cx="64" cy="64" r="52" fill="none" stroke="#734dff" stroke-width="2" opacity="0.6"/>
+  <circle cx="64" cy="64" r="45" fill="none" stroke="#d7a93d" stroke-width="2" opacity="0.8"/>
+  <path d="M64 17 L103 105 H83 L75 85 H53 L45 105 H25 Z M64 47 L57 70 H71 Z" fill="url(#gold)" stroke="#fff0a8" stroke-width="2" filter="url(#glow)"/>
+  <path d="M42 96 L53 73 H75 L86 96 L64 84 Z" fill="#050713" stroke="#4fd5ff" stroke-width="2" opacity="0.95"/>
+  <path d="M50 87 L60 82 M78 82 L88 87" stroke="#45ccff" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M64 28 L64 104" stroke="#8d5cff" stroke-width="2" opacity="0.75"/>
+</svg>
