@@ -1,0 +1,18 @@
+:root {
+  --bg: #070913;
+  --bg-elevated: #0d1020;
+  --surface: #12162a;
+  --surface-strong: #171c34;
+  --text: #f7f8ff;
+  --text-muted: #9aa3bd;
+  --border: rgba(151,164,203,.16);
+  --accent: #7c6cff;
+  --accent-2: #4ca6ff;
+  --accent-soft: rgba(124,108,255,.16);
+  --shadow-soft: 0 24px 70px rgba(0,0,0,.28);
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --content-max: 1180px;
+  --ease: cubic-bezier(.2,.8,.2,1);
+}
