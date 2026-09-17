@@ -1,21 +1,21 @@
 {
   "name": "ALTHERAI",
   "short_name": "ALTHERAI",
-  "description": "Gaming creator focused on Warframe, free-to-play PC games and Linux/Zorin gaming tests.",
-  "start_url": "https://altherai.github.io/",
-  "scope": "https://altherai.github.io/",
+  "description": "Real-world PC gaming tests for normal players, focused on Warframe, free-to-play and live-service games, progression and practical hardware performance.",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "background_color": "#02030a",
-  "theme_color": "#0f071c",
+  "background_color": "#070913",
+  "theme_color": "#070913",
   "icons": [
     {
-      "src": "https://altherai.github.io/favicon.svg",
+      "src": "/favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"
     },
     {
-      "src": "https://altherai.github.io/apple-touch-icon.svg",
+      "src": "/apple-touch-icon.svg",
       "sizes": "180x180",
       "type": "image/svg+xml",
       "purpose": "any maskable"
