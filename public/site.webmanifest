@@ -1,0 +1,24 @@
+{
+  "name": "ALTHERAI",
+  "short_name": "ALTHERAI",
+  "description": "Real-world PC gaming tests for normal players, focused on Warframe, free-to-play and live-service games, progression and practical hardware performance.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#070913",
+  "theme_color": "#070913",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
