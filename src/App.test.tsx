@@ -4,5 +4,5 @@ import App from './App'
 
 test('renders the ALTHERAI application shell', () => {
   render(<MemoryRouter initialEntries={['/']}><App /></MemoryRouter>)
-  expect(screen.getByRole('heading', { name: /real-world pc gaming tests for normal players/i })).toBeInTheDocument()
+  expect(screen.getByRole('heading', { name: /play it\.\s*test it\.\s*show the result\./i })).toBeInTheDocument()
 })
