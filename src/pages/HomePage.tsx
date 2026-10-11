@@ -15,15 +15,15 @@ export default function HomePage() {
         <div>GTX 1080 TESTS</div>
         <div>PROGRESSION</div>
         <div>REAL GAMEPLAY</div>
-        <div>CREATOR TECH</div>
+        
       </section>
 
       <section className="section section-lab">
         <div className="container">
           <div className="split-heading">
             <div>
-              <div className="eyebrow">Current focus · October 2026</div>
-              <h2 className="section-title">Built around questions players actually ask.</h2>
+              <div className="eyebrow">What I cover</div>
+              <h2 className="section-title">Games worth exploring. Questions worth answering.</h2>
             </div>
             <p className="section-intro">No synthetic benchmarks standing alone. No vague “worth it” verdicts without a test. The point is to show what happens on screen.</p>
           </div>
@@ -61,8 +61,8 @@ export default function HomePage() {
         <div className="container">
           <div className="split-heading">
             <div>
-              <div className="eyebrow">Watchable field tests</div>
-              <h2 className="section-title">Real gameplay, real questions, honest outcomes.</h2>
+              <div className="eyebrow">Recently on the channel</div>
+              <h2 className="section-title">The latest videos. No filler.</h2>
             </div>
             <a className="text-link" href="https://www.youtube.com/@bugsbunny6251" target="_blank" rel="noreferrer">Open YouTube ↗</a>
           </div>
@@ -74,13 +74,13 @@ export default function HomePage() {
         <div className="container">
           <div className="split-heading">
             <div>
-              <div className="eyebrow">Now recording · AION 2</div>
-              <h2 className="section-title">The Chanter journey: what changes as I level?</h2>
+              <div className="eyebrow">Ongoing series · AION 2</div>
+              <h2 className="section-title">AION 2: the Chanter journey</h2>
             </div>
             <p className="section-intro">I switched from Spiritmaster to Chanter because the support playstyle interested me. Its mobility surprised me. Next I'm leveling it to see what new abilities and real group play bring. The first episode is under private review; it isn't publicly available yet.</p>
           </div>
           <div className="pillar-grid">
-            <article className="pillar"><span className="pillar-index">01</span><div><small>FIRST IMPRESSIONS</small><h3>The class switch</h3><p>Why I decided to keep playing Chanter. Recorded and under private review.</p></div></article>
+            <article className="pillar"><span className="pillar-index">01</span><div><small>FIRST IMPRESSIONS</small><h3>The class switch</h3><p>Why I decided to keep playing Chanter. Episode recorded; currently in private review.</p></div></article>
             <article className="pillar"><span className="pillar-index">02</span><div><small>UP NEXT</small><h3>Leveling Chanter</h3><p>New skills, progression and how the class actually feels after more time.</p></div></article>
             <article className="pillar"><span className="pillar-index">03</span><div><small>FUTURE TEST</small><h3>Group support</h3><p>Healing and party utility, only after suitable content is accessible and recorded.</p></div></article>
           </div>
