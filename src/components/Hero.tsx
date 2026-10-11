@@ -3,48 +3,35 @@ import { latestTestUrl } from '../data/tests'
 
 export default function Hero() {
   return (
-    <section className="hero hero-lab">
+    <section className="hero hero-lab hero-2026">
       <div className="container hero-grid">
         <div className="hero-copy-block">
-          <div className="eyebrow hero-kicker"><span className="live-dot" /> REAL GAME TESTS • NORMAL HARDWARE</div>
-          <h1>Play it. <span>Test it.</span><br />Show the result.</h1>
-          <p>ALTHERAI follows Warframe experiments, an ongoing AION 2 Chanter journey, free-to-play PC games and honest performance tests — with real footage, natural commentary and visible results.</p>
+          <div className="eyebrow hero-kicker"><span className="live-dot" /> WARFRAME · AION 2 · REAL PC GAMING</div>
+          <h1>Real gameplay.<br /><span>Real discoveries.</span></h1>
+          <p>I'm ALTHERAI. I test what actually matters in Warframe, AION 2 and online PC games—from early progression to practical challenges—on a PC you don't need to spend a fortune on.</p>
           <div className="hero-actions">
-            <a className="button primary" href={latestTestUrl} target="_blank" rel="noreferrer">Watch Latest Test ↗</a>
-            <Link className="button ghost" to="/tests">Explore Tests</Link>
+            <a className="button primary" href={latestTestUrl} target="_blank" rel="noreferrer">Watch AION 2 episode ↗</a>
+            <Link className="button ghost" to="/tests">Browse all videos →</Link>
           </div>
           <div className="hero-proof">
-            <span>Ryzen 5 3600</span>
-            <span>GTX 1080 8GB</span>
-            <span>16GB RAM</span>
-            <span>OBS Recording</span>
+            <span>REAL FOOTAGE</span><span>NO INVENTED RESULTS</span><span>WARFRAME + AION 2</span><span>GTX 1080 TEST BENCH</span>
           </div>
         </div>
-
-        <div className="rig-scene" aria-label="ALTHERAI gaming test bench visualization">
-          <div className="rig-glow" />
-          <div className="rig-ring ring-a" />
-          <div className="rig-ring ring-b" />
-          <div className="rig-ring ring-c" />
-          <div className="rig-core">
-            <div className="rig-screen">
-              <div className="rig-topbar">
-                <span>ALTHERAI TEST LAB</span>
-                <b>LIVE</b>
-              </div>
-              <div className="rig-title">REAL GAME TEST</div>
-              <div className="rig-stat"><strong>1080p</strong><span>recorded gameplay</span></div>
-              <div className="rig-bars"><i /><i /><i /><i /><i /></div>
-              <div className="rig-footer"><span>FPS</span><span>VRAM</span><span>RAM</span><span>OBS</span></div>
+        <div className="featured-video">
+          <a href={latestTestUrl} target="_blank" rel="noreferrer" className="featured-video-link" aria-label="Watch I Played AION 2 for 2.5 Hours on YouTube">
+            <div className="featured-video-art">
+              <img src="https://i.ytimg.com/vi/eiHaMlqoK14/hqdefault.jpg" alt="Actual AION 2 gameplay video thumbnail" />
+              <span className="featured-play" aria-hidden="true">▶</span>
+              <span className="featured-corner">FEATURED VIDEO · AION 2</span>
             </div>
-          </div>
-          <div className="hud-card hud-one"><small>PRIMARY</small><strong>Warframe + AION 2</strong><span>Question → Gameplay → Result</span></div>
-          <div className="hud-card hud-two"><small>BENCH</small><strong>GTX 1080</strong><span>Real-world baseline</span></div>
-          <div className="hud-chip chip-a">F2P</div>
-          <div className="hud-chip chip-b">PERFORMANCE</div>
+            <div className="featured-video-info">
+              <div><small>FIRST IMPRESSIONS</small><h2>I Played AION 2 for 2.5 Hours… Here's What Surprised Me</h2></div>
+              <span className="featured-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+          <div className="featured-under"><span>ALTHERAI FIELD NOTES / 2026</span><span>REAL TESTS. HONEST VERDICTS.</span></div>
         </div>
       </div>
-      <div className="scroll-cue">SCROLL TO ENTER THE LAB</div>
     </section>
   )
 }
