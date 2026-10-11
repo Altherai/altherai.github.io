@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="hero-copy-block">
           <div className="eyebrow hero-kicker"><span className="live-dot" /> REAL GAME TESTS • NORMAL HARDWARE</div>
           <h1>Play it. <span>Test it.</span><br />Show the result.</h1>
-          <p>ALTHERAI tests Warframe, free-to-play PC games and real performance on accessible hardware — using recorded gameplay, visible measurements and practical outcomes.</p>
+          <p>ALTHERAI follows Warframe experiments, an ongoing AION 2 Chanter journey, free-to-play PC games and honest performance tests — with real footage, natural commentary and visible results.</p>
           <div className="hero-actions">
             <a className="button primary" href={latestTestUrl} target="_blank" rel="noreferrer">Watch Latest Test ↗</a>
             <Link className="button ghost" to="/tests">Explore Tests</Link>
@@ -38,7 +38,7 @@ export default function Hero() {
               <div className="rig-footer"><span>FPS</span><span>VRAM</span><span>RAM</span><span>OBS</span></div>
             </div>
           </div>
-          <div className="hud-card hud-one"><small>PRIMARY</small><strong>Warframe</strong><span>Question → Test → Result</span></div>
+          <div className="hud-card hud-one"><small>PRIMARY</small><strong>Warframe + AION 2</strong><span>Question → Gameplay → Result</span></div>
           <div className="hud-card hud-two"><small>BENCH</small><strong>GTX 1080</strong><span>Real-world baseline</span></div>
           <div className="hud-chip chip-a">F2P</div>
           <div className="hud-chip chip-b">PERFORMANCE</div>
