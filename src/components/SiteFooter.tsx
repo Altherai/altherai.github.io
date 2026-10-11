@@ -7,7 +7,7 @@ export default function SiteFooter() {
       <div className="container footer-row">
         <div>
           <div className="brand"><span>ALTH</span>ERAI</div>
-          <div className="footer-tagline">Warframe • F2P PC • real-world performance tests.</div>
+          <div className="footer-tagline">Warframe • AION 2 • honest PC gaming & progression.</div>
         </div>
         <div className="footer-links">
           {socialLinks.map(link => <a key={link.label} href={link.href}>{link.label}</a>)}
