@@ -10,6 +10,7 @@ export default function HomePage() {
 
       <section className="signal-strip" aria-label="ALTHERAI content pillars">
         <div>WARFRAME</div>
+        <div>AION 2 · CHANTER</div>
         <div>F2P PC</div>
         <div>GTX 1080 TESTS</div>
         <div>PROGRESSION</div>
@@ -21,7 +22,7 @@ export default function HomePage() {
         <div className="container">
           <div className="split-heading">
             <div>
-              <div className="eyebrow">Current focus</div>
+              <div className="eyebrow">Current focus · October 2026</div>
               <h2 className="section-title">Built around questions players actually ask.</h2>
             </div>
             <p className="section-intro">No synthetic benchmarks standing alone. No vague “worth it” verdicts without a test. The point is to show what happens on screen.</p>
@@ -40,8 +41,8 @@ export default function HomePage() {
               <span className="pillar-index">02</span>
               <div>
                 <small>DISCOVERY</small>
-                <h3>Free-to-play PC</h3>
-                <p>New and live-service games tested from the perspective of a normal returning or first-time player.</p>
+                <h3>AION 2 &amp; other online worlds</h3>
+                <p>Following my Chanter from first impressions into leveling, new abilities and eventual group play. New and live-service games remain part of the mix.</p>
               </div>
             </article>
             <article className="pillar">
@@ -60,12 +61,29 @@ export default function HomePage() {
         <div className="container">
           <div className="split-heading">
             <div>
-              <div className="eyebrow">Latest field tests</div>
-              <h2 className="section-title">Evidence first. Story second. No invented numbers.</h2>
+              <div className="eyebrow">Watchable field tests</div>
+              <h2 className="section-title">Real gameplay, real questions, honest outcomes.</h2>
             </div>
             <a className="text-link" href="https://www.youtube.com/@bugsbunny6251" target="_blank" rel="noreferrer">Open YouTube ↗</a>
           </div>
           <TestGrid compact />
+        </div>
+      </section>
+
+      <section className="section section-lab" aria-label="AION 2 progression series">
+        <div className="container">
+          <div className="split-heading">
+            <div>
+              <div className="eyebrow">Now recording · AION 2</div>
+              <h2 className="section-title">The Chanter journey: what changes as I level?</h2>
+            </div>
+            <p className="section-intro">I switched from Spiritmaster to Chanter because the support playstyle interested me. Its mobility surprised me. Next I'm leveling it to see what new abilities and real group play bring. The first episode is under private review; it isn't publicly available yet.</p>
+          </div>
+          <div className="pillar-grid">
+            <article className="pillar"><span className="pillar-index">01</span><div><small>FIRST IMPRESSIONS</small><h3>The class switch</h3><p>Why I decided to keep playing Chanter. Recorded and under private review.</p></div></article>
+            <article className="pillar"><span className="pillar-index">02</span><div><small>UP NEXT</small><h3>Leveling Chanter</h3><p>New skills, progression and how the class actually feels after more time.</p></div></article>
+            <article className="pillar"><span className="pillar-index">03</span><div><small>FUTURE TEST</small><h3>Group support</h3><p>Healing and party utility, only after suitable content is accessible and recorded.</p></div></article>
+          </div>
         </div>
       </section>
 
@@ -76,7 +94,7 @@ export default function HomePage() {
               <div className="eyebrow">The ALTHERAI method</div>
               <h2 className="section-title">Question → Test → Result</h2>
             </div>
-            <p className="section-intro">Editing can amplify value. It cannot manufacture value. The test needs a visible payoff before the video does.</p>
+            <p className="section-intro">Editing can amplify value, but never manufacture it. ALTHERAI pairs evidence-led stories with natural narration, readable Shorts and clear follow-ups. Each episode earns its runtime.</p>
           </div>
           <MethodFlow />
         </div>
